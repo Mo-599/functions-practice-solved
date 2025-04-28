@@ -23,8 +23,6 @@ function doesArrayIncludeItemsBetweenVals(arr, val1, val2) {
   }
   return false;
 }
-console.log(doesArrayIncludeItemsBetweenVals([2, 4, 2], 3, 5));
-console.log(doesArrayIncludeItemsBetweenVals([2, 4, 2], 5, 10));
 
 /**
  * ====================================================
@@ -59,11 +57,6 @@ const getValueWithConditionThree = function (a, b) {
     return (a + b) * 2;
   }
 };
-console.log(getValueWithConditionOne(40, 40));
-console.log(getValueWithConditionOne(20, 30));
-
-console.log(getValueWithConditionTwo(40, 40));
-console.log(getValueWithConditionThree(10, 20));
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-3"

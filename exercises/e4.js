@@ -9,10 +9,7 @@
  * splitFirstAndLastNames('John Smith') => ['John', 'Smith']
  */
 
-function splitFirstAndLastNames(str) {
-  return str.split(" ");
-}
-console.log(splitFirstAndLastNames(`John Smith`));
+const splitFirstAndLastNames = (fullName) => fullName.split(" ");
 
 /** =========================
  * The personAge() constant is assigned to a function, that takes an object of person Data as the argument.
@@ -23,7 +20,6 @@ console.log(splitFirstAndLastNames(`John Smith`));
 const personAge = function (personObject) {
   return personObject.age;
 };
-console.log(personAge({ id: 1, name: "Someone", age: 32 }));
 
 /** =========================
  * The isNameInArray function takes an array and string of name as the arguments.
@@ -35,8 +31,6 @@ console.log(personAge({ id: 1, name: "Someone", age: 32 }));
 const isNameInArray = function (arr, name) {
   return arr.includes(name);
 };
-console.log(isNameInArray(["Jon", "Michael", "Andrey"], "Michael"));
-console.log(isNameInArray(["Jon", "Michael", "Andrey"], "James"));
 
 /** =========================
  * The logTimer function takes a number as the arguments.

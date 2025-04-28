@@ -20,9 +20,6 @@ function getDiffTwentySeven(num) {
     return diff;
   }
 }
-console.log(getDiffTwentySeven(13));
-console.log(getDiffTwentySeven(27));
-console.log(getDiffTwentySeven(37));
 
 /** =========================
  * Create a sumOfTwoIntegers(num1, num2) function to compute and return the sum of the two given integers
